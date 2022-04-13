@@ -4,3 +4,16 @@
 ## Notes
 
 - there are actually unmount function which is interesting
+- flushJobs(seen) make sure that parent come first and skip unmounted components
+- checkRecursiveUpdates(seen, fn) check if recursions excced the limited amount and stop it if it exceed it
+- this article https://www.jscodetips.com/index.php/examples/how-to-handle-initializing-and-rendering-subviews-in-backbone-js helped me with understanding rerender(id, newRender) 
+- rerender(id, newRender) it's useful for `<slot />` so I will check this later when i start using slot and it  
+- reload(id, newComp) this one handle updating the page and has interesting fallback
+
+
+
+
+### Notes related to javascript languages
+- try{}, catch{}, finaly{
+  finally will run regardless of try result
+}
