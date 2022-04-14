@@ -9,9 +9,9 @@
 - this article https://www.jscodetips.com/index.php/examples/how-to-handle-initializing-and-rendering-subviews-in-backbone-js helped me with understanding rerender(id, newRender) 
 - rerender(id, newRender) it's useful for `<slot />` so I will check this later when i start using slot and it  
 - reload(id, newComp) this one handle updating the page and has interesting fallback
-
-
-
+- what is subtree https://stackoverflow.com/questions/36700148/what-is-a-subtree-when-referring-to-the-dom-in-javascript
+- there is process function that happens before mount() 
+- suspence is used as fallback(), experimental feature and its API will likely change
 
 ### Notes related to javascript languages
 - try{}, catch{}, finaly{
