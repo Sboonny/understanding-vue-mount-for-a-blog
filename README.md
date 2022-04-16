@@ -12,6 +12,8 @@
 - what is subtree https://stackoverflow.com/questions/36700148/what-is-a-subtree-when-referring-to-the-dom-in-javascript
 - there is process function that happens before mount() 
 - suspence is used as fallback(), experimental feature and its API will likely change
+- mounting change the state to true
+- v-show sets el._leaveCb() to true which cansel it
 
 ### Notes related to javascript languages
 - try{}, catch{}, finaly{
